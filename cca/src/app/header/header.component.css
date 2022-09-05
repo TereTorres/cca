@@ -1,0 +1,39 @@
+.row{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.titulo{
+   font-size: 30px;
+   color: white;
+}
+a{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width: 1134px){
+    .container{
+        flex-direction: column;
+    }
+    #social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    img{
+        align-items: center;
+    }
+}
+
